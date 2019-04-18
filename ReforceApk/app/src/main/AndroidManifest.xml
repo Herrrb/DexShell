@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.herbwen.reforceapk">
+
+    <application android:name="com.herbwen.reforceapk.ProxyApplication" android:label="@string/app_name" android:icon="@drawable/ic_launcher_foreground" android:allowBackup="true" android:theme="@style/Theme.AppCompat">
+
+        <meta-data android:name="APPLICATION_CLASS_NAME" android:value="com.herbwen.unshell.MyApplication"/>
+        <activity android:name="com.herbwen.unshell.MainActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.herbwen.unshell.SubActivity"/>
+    </application>
+
+</manifest>

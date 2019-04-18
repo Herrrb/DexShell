@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - mymain",
+            "request": "launch",
+            "mainClass": "com.example.reforceapk.mymain",
+            "projectName": "DexShell"
+        }
+    ]
+}
