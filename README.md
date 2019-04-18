@@ -1,9 +1,8 @@
-"# DexShell" 
 > 最让我没有想到的是，这种远古方法居然成功了
 # 前言
 因为最近要准备一些东西，所以决心把这个远古方法的加固给完成了，借此来了解一下基本的加固原理与实现
 
-GitHub：
+GitHub：https://github.com/Herrrb/DexShell
 
 # 环境
 * 真机：Zuk Z2 Pro， Android8.0
@@ -481,16 +480,11 @@ remove掉oldApplication
 
 ## splitPayLoadFromDex
 System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length);
-	1. 
-src：源数组；
-	2. 
-srcPos：源数组要复制的起始位置
-	3. 
-dest：目标数组
-	4. 
-destPos：目标数组放置的起始位置
-	5. 
-length：复制的长度
+1. src：源数组；
+2. srcPos：源数组要复制的起始位置
+3. dest：目标数组
+4. destPos：目标数组放置的起始位置
+5. length：复制的长度
 
 
 拿到长度，并新建apk的byte[]序列（`arraycopy -> ByteArrayInputStream -> DataInputStream -> readInt`
