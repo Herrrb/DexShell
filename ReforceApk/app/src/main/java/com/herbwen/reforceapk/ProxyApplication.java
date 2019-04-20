@@ -252,9 +252,9 @@ public class ProxyApplication extends Application{
         return srcdata;
     }
 
-    protected AssetManager mAssetManager;//��Դ������
-    protected Resources mResources;//��Դ
-    protected Theme mTheme;//����
+    protected AssetManager mAssetManager;
+    protected Resources mResources;
+    protected Theme mTheme;
 
 
     protected void loadResources(String dexPath) {
