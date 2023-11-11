@@ -497,6 +497,7 @@ System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length);
     int readInt = in.readInt();
     System.out.println(Integer.toHexString(readInt));
     byte[] newdex = new byte[readInt];
+    System.arraycopy(apkdata, ablen - readInt - 4, newdex, 0, readInt);
 
 然后进行解密
 
